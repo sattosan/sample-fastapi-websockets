@@ -3,7 +3,7 @@ FastAPIでWebSocketsを動作させるためのサンプルプログラム
 
 ## Demo
 
-![demo](https://raw.github.com/wiki/sattosan/sample-fastapi-websockets/images/demo.gif)
+![demo](https://github.com/sattosan/sample-fastapi-websockets/blob/master/images/demo.gif)
 
 WebSocketsを使った簡単なチャットアプリのデモです
 
