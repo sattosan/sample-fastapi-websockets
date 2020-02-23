@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+  # FastAPI
+  api:
+    container_name: "api"
+    build: ./docker/uvicorn
+    restart: always
+    tty: true
+    ports:
+      - 8000:8000
+    volumes:
+      - ./api:/usr/src/api
+  # Node.js
+  web:
+    container_name: "web"
+    build: ./docker/node
+    restart: always
+    tty: true
+    ports:
+      - 8080:8080
+    volumes:
+      - ./app:/usr/src/app
