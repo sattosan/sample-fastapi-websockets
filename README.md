@@ -17,7 +17,7 @@ http://localhost:8080
 
 ```
 # コードをクローンする
-$ git clone git@github.com:sattosan/sample-fastapi-websockets.git
+$ git clone https://github.com/sattosan/sample-fastapi-websockets.git
 
 # クローンしたディレクトリへ移動
 $ cd ./sample-fastapi-websockets
